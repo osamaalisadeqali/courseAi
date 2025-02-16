@@ -10,7 +10,7 @@ import httpx
 import asyncio
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # قم بتغيير هذا إلى مفتاح سري قوي
+app.secret_key = 'Os(int;;);' 
 login_manager = LoginManager()
 login_manager.init_app(app)
 
